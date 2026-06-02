@@ -2,8 +2,6 @@
 
 A full-stack, production-ready SaaS project management app built with Next.js, Node.js/Express, and PostgreSQL. Multi-tenant, role-based, with Google OAuth, PWA support, and all 13 layers of a production stack.
 
-![ProjectFlow Dashboard](https://via.placeholder.com/1200x600/4f46e5/ffffff?text=ProjectFlow)
-
 ---
 
 ## Features
