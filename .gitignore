@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+.next/
+out/
+build/
+
+# Environment — NEVER commit these
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+.env.development.local
+
+# Secrets
+*.pem
+*.key
+*.p12
+*.pfx
+serviceAccountKey.json
+google-credentials.json
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Turbo
+.turbo/
+
+# Test coverage
+coverage/
+
+# Misc
+*.tsbuildinfo

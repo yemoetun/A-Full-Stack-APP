@@ -1,0 +1,16 @@
+{
+  "name": "@projectflow/db",
+  "version": "1.0.0",
+  "scripts": {
+    "migrate": "node scripts/migrate.js",
+    "seed": "tsx seed/index.ts"
+  },
+  "dependencies": {
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.5",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}
