@@ -38,7 +38,7 @@ jobs:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
         run: railway up --service api --detach
 
-- name: Health check
+      - name: Health check
         run: |
           sleep 30
           curl -f ${{ secrets.API_URL }}/api/v1/health || exit 1
