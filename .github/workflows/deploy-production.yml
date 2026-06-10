@@ -36,7 +36,7 @@ jobs:
       - name: Deploy API
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
-        run: railway up --service api --detach --project f57f0bba-2686-4662-a512-4ba8a2280a48 --environment 4cba60b9-5df6-4d54-8ea2-f22c8be6eb14
+        run: railway up --service A-Full-Stack-APP --detach --project f57f0bba-2686-4662-a512-4ba8a2280a48 --environment 4cba60b9-5df6-4d54-8ea2-f22c8be6eb14
 
       - name: Health check
         run: |
