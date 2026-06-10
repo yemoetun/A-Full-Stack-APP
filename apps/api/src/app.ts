@@ -1,4 +1,4 @@
-import express from "express";
+import express, { Express } from "express";
 import cors from "cors";
 import helmet from "helmet";
 import * as Sentry from "@sentry/node";
@@ -8,7 +8,7 @@ import { errorHandler } from "./middleware/errorHandler.middleware";
 import { rateLimiter } from "./middleware/rateLimiter.middleware";
 import { router } from "./routes";
 
-export function createApp() {
+export function createApp(): Express {
   const app = express();
 
   // Sentry
